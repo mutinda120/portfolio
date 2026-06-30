@@ -2,9 +2,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Times New Roman', ;
 }
+
 header{
     display:flex;
     justify-content:space-between;
@@ -13,58 +15,70 @@ header{
     color:#fff;
     padding:1rem;
 }
+
 h1{
     font-family: Arial, Helvetica, ;
     font-size: 40px;
     font-weight:bold;
     border-color: rgba(141, 169, 221, 0.521);
 }
+
 h2{
    font-family:serif; 
    font-size:20px;
    text-decoration: underline;
    border-color: rgba(164, 198, 238, 0.582);
 }
+
 nav ul{
     display: flex;
     list-style-type: none;
     margin-right: 20px;
 }
+
 nav  ul  li{
     margin: 0 5px;
     border: 2px  solid black;
     padding: 5px;
 }
+
 p{
     width: 550px; 
     font-style:italic ;
 
 }
+
 li{
    text-decoration: none;
    font-style: italic;
 }
+
  nav a{
    font-size: 1.5em;
    color:#fff;
 }
-nav a:hover{
+
+a:hover{
     color:#1ace41;
     background: #fff;
     transition: all 5s ease-in-out;
 
 }
+
 .nav-item{
     position: relative;
 }
+
 .nav-item:hover>.dropdown{
     display: flex;
     flex-direction: column;
 }
+
 .project-gallery{
     display: flex;
     flex-wrap: wrap;
 }
+
 .dropdown{
     display: none;
     position: absolute;
@@ -74,6 +88,7 @@ nav a:hover{
     min-width: 200px;
     z-index: 1000;
 }
+
 body{
     background-color: rgb(34, 163, 223);
 }
@@ -86,12 +101,15 @@ body{
     width: 50px;
     animation: spin 1s linear infinite;
 }
+
 #about-me{
     display:block;
 }
+
 footer{
     text-align: end;
 }
+
 .video-container {
     display:flex;
     gap:20px;
@@ -106,23 +124,29 @@ footer{
     width: 500px;
     height:auto;
 }
+
 video-text{
     width: 50px;
 }
+
 .text-content {
   flex: 1;   
   float: right;         
 }
+
 .video-wrapper {
   flex: 1;               
 }
+
 h{
     border: bottom 20px; ;
 }
+
 root{
     --main-bg-color:#035f12;
     --secondary-bg-color:#333;
 }
+
 table{
     border-collapse: 10px;
     border-color: black;
@@ -132,6 +156,7 @@ table{
     text-align: none;
     padding: 20px;
 }
+
 @media screen and (max-width:600px){
     nav ul{
         display: flex;
@@ -148,6 +173,7 @@ table{
     border-left: 20px;
     margin-right: 200px;
 }
+
 .dashboard-container{
     display: flex;
     grid-template-columns: 1fr;
